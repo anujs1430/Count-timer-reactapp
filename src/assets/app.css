@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(56, 56, 56);
+    color: #fff;
+}
+
+.app {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.input-box>input {
+    height: 50px;
+    width: 50px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    display: none;
+}
+
+button {
+    background-color: #fff;
+    height: 40px;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #000;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    filter: drop-shadow(0px 0px 2rem #ffffff);
+    transition: all 0.3s;
+}
+
+.timer-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
